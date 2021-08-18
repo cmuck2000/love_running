@@ -7,7 +7,7 @@
 }
 
 
-body { 
+body {
     font-family: Lato, sans-serif;
     font-weight: 300;
     color: #3a3a3a;
@@ -124,7 +124,7 @@ h1, h2 {
     padding-top: 30px;
     width: 33%;
     float: left;
-      
+
 }
 
 #right-about {
@@ -213,7 +213,7 @@ hr {
     border: 2px solid white;
     box-sizing: border-box;
 }
- 
+
 #times h2 {
     color: #fafafa;
 }
@@ -238,3 +238,17 @@ footer {
     padding: 5%;
     color: #3a3a3a;
 }
+
+/* gallery */
+
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+
+#photos > img {
+    width: 100%;
+}
+
